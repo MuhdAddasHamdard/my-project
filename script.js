@@ -1,14 +1,34 @@
-var productName = "computer";
+// assignment operator
+const numOne = 10;
+const numTwo = 30;
 
-let userName = "ali";
-var num = 34;
-var age = num;
+// arethmatic operators
+console.log(numOne + numTwo);
+console.log(numTwo - numOne);
+console.log(numTwo * numOne);
+console.log(numTwo / numOne);
+// returns reminder
+console.log(numTwo % numOne);
 
-console.log(typeof age);
-console.log(typeof 34);
-console.log(typeof "ali");
+// increamental operator
 
-const dob = "2022/2/2";
+let a = 34;
+a++;
+console.log(a);
 
-console.log(dob);
-dob = "2023/3/3";
+a += 3;
+console.log(a);
+
+a *= 2;h
+console.log(a);
+
+// decreamental operators
+
+let b = 3;
+
+b--;
+console.log(b);
+
+b -= 2;
+console.log(b);
+
